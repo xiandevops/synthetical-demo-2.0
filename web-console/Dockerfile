@@ -1,9 +1,9 @@
 FROM tomcat:9.0
 WORKDIR /usr/local/tomcat/webapps/ROOT
 
-ENV managerServicesUrl http://product_manager:8080
+ENV managerServicesUrl http://product-manager:8080
 
-ENV consoleBackstageHost http://scene_init:8080
+ENV consoleBackstageHost http://scene-init:8080
 
 ENV picturePath /opt/picture
 
