@@ -7,7 +7,7 @@ ENV dbServicesUrl http://db-controller:8080
 
 ENV redisHost redis-a231e00-dcs-rcwm.dcs.huaweicloud.com
 ENV redisPort 6379
-ENV redisPasswd Ddm@cloud2017
+ENV redisPasswd 
 ENV redisMaxActive 20
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
